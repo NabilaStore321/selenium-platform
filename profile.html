@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Pengguna</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+<body>
+    <header>
+        <h1>Profil Pengguna</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="user-profile">
+            <img src="https://vgchzuqtrmohyzojvngw.supabase.co/storage/v1/object/public/seleniumplatformassets//selenium%20profile.jpg" alt="User Profile Picture" style="max-width: 200px; border-radius: 50%;">
+            <h2>Nama Pengguna: <span id="userName">Guest</span></h2>
+            <p>Email: <span id="userEmail">guest@example.com</span></p>
+            <button id="logoutButton">Logout</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Selenium Platform</p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
